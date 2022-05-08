@@ -2,7 +2,7 @@
 import { useContext } from "react";
 import { themeContext } from "./Context";
 import './index.css'
-import Navbar from "./page/Navbar";
+import {Navbar} from "./page/Navbar";
 
 function App() {
   const theme = useContext(themeContext);
