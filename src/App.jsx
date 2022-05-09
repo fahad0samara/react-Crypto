@@ -2,6 +2,8 @@
 import { useContext } from "react";
 import { themeContext } from "./Context";
 import './index.css'
+import { Home } from "./page/Home";
+import Home0 from "./page/Home0";
 import {Navbar} from "./page/Navbar";
 
 function App() {
@@ -16,7 +18,9 @@ function App() {
         color: darkMode ? "white" : "",
       }}
     >
-      <Navbar/>
+      <Navbar />
+      <Home />
+      <Home0/>
       
     </div>
   );

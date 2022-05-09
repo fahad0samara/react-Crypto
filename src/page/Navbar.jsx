@@ -88,7 +88,7 @@ export const Navbar = () => {
               href="/"
               aria-label="Sign in"
               title="Sign in"
-              class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide  transition duration-200 rounded-3xl  shadow-md border-2 border-blue-400   bg-transparent"
+              class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide  transition duration-200 rounded-3xl  shadow-md border-2 border-purple-400   bg-transparent"
             >
               Log In
             </a>
@@ -96,7 +96,7 @@ export const Navbar = () => {
           <li>
             <a
               href="/"
-              className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide  transition duration-200 rounded-3xl  shadow-md text-white  bg-blue-500 "
+              className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide  transition duration-200 rounded-3xl  shadow-md text-white  bg-purple-600 "
               aria-label="Sign up"
               title="Sign up"
             >
