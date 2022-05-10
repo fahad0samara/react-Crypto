@@ -2,6 +2,7 @@
 import { useContext } from "react";
 import { themeContext } from "./Context";
 import './index.css'
+import Footor from "./page/Footor";
 import { Home } from "./page/Home";
 import Home0 from "./page/Home0";
 import Home1 from "./page/Home1";
@@ -27,6 +28,7 @@ function App() {
       <Home1 />
       <Home3 />
       <Home2 />
+      <Footor/> 
      
       
     </div>

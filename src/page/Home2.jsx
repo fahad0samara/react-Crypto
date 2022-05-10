@@ -4,7 +4,7 @@ const Home2 = () => {
   return (
       <div className=' grid md:grid-cols-2'>
           <img src={img} alt="" />
-          <div className=' m-10 mt-28  space-y-3'>
+          <div className=' m-10 mt-28  space-y-5'>
               <h1 className=' text-3xl font-extrabold'>Advanced Trading <span className=' text-purple-600'>Tools</span> </h1>
               <div><h1 className=' text-2xl font-bold'>Professional Access, Non-stop Availability </h1>
                   <h2 >We provide premium access to crypto trading for both individuals and institutions through high liquidity, reliable order execution and constant uptime.</h2>
