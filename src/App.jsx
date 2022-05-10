@@ -5,6 +5,8 @@ import './index.css'
 import { Home } from "./page/Home";
 import Home0 from "./page/Home0";
 import Home1 from "./page/Home1";
+import Home2 from "./page/Home2";
+import Home3 from "./page/Home3";
 import {Navbar} from "./page/Navbar";
 
 function App() {
@@ -22,7 +24,10 @@ function App() {
       <Navbar />
       <Home />
       <Home0 />
-      <Home1/>
+      <Home1 />
+      <Home3 />
+      <Home2 />
+     
       
     </div>
   );

@@ -3,7 +3,7 @@ import img from '../img/11.png'
 import { UilCommentVerify } from '@iconscout/react-unicons'
 const Home1 = () => {
   return (
-      <div className=' grid grid-cols-2 mt-10  '>
+      <div className=' grid md:grid-cols-2 mt-10  '>
           <div className='  m-10 space-y-5   '>
               <h1 className=' text-4xl font-bold'>Introducing the <span className=' text-purple-600' >NEFA</span>  Credit Card</h1>
               <h2 className=' text-2xl'>Subject to cardholder and rewards terms which will be available at application</h2>
