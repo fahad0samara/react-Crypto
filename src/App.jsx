@@ -4,6 +4,7 @@ import { themeContext } from "./Context";
 import './index.css'
 import { Home } from "./page/Home";
 import Home0 from "./page/Home0";
+import Home1 from "./page/Home1";
 import {Navbar} from "./page/Navbar";
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
     >
       <Navbar />
       <Home />
-      <Home0/>
+      <Home0 />
+      <Home1/>
       
     </div>
   );
