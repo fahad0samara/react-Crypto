@@ -1,4 +1,7 @@
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 import { useContext } from "react";
 import { themeContext } from "./Context";
 import './index.css'
@@ -16,7 +19,7 @@ function App() {
 
   return (
       <div
-      classNameName="App"
+      className="App"
       style={{
         background: darkMode ? "black" : "",
         color: darkMode ? "white" : "",

@@ -50,7 +50,7 @@ const Home0 = () => {
     return (
         <div className=" grid md:grid-cols-4 ">
 
-            <img src={img} alt="" />
+            <img data-aos="zoom-out-up" src={img} alt="" />
 
             <section className=" col-span-2">
                 <div className="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
@@ -160,7 +160,7 @@ const Home0 = () => {
                     </div>
                 </div>
             </section>
-            <img src={img1} alt="" />
+            <img data-aos="zoom-out-down" src={img1} alt="" />
 
 
 

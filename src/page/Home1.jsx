@@ -4,7 +4,7 @@ import { UilCommentVerify } from '@iconscout/react-unicons'
 const Home1 = () => {
   return (
       <div className=' grid md:grid-cols-2 mt-10  '>
-          <div className='  m-10 space-y-5   '>
+          <div data-aos="fade-up" className='  m-10 space-y-5   '>
               <h1 className=' text-4xl font-bold'>Introducing the <span className=' text-purple-600' >NEFA</span>  Credit Card</h1>
               <h2 className=' text-2xl'>Subject to cardholder and rewards terms which will be available at application</h2>
               <div className=' flex items-center text-center space-x-2'>
@@ -38,7 +38,7 @@ const Home1 = () => {
               </div>
           
           </div>
-          <img className='  mt-16 ' src={img} alt="" />
+          <img  data-aos="fade-left" className='  mt-16 ' src={img} alt="" />
           
       </div>
   )
